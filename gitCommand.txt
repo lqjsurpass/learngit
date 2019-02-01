@@ -1,0 +1,23 @@
+工作区（Working Directory） learngit
+版本库（Repository）		工作区有一个隐藏目录.git，这个不算工作区，而是Git的版本库。
+							Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD。
+							https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013745374151782eb658c5a5ca454eaa451661275886c6000
+							
+							
+							
+							
+git init 				初始化git 添加空的新仓库
+git add [file]  		添加到暂存库
+git commit -m "commit"  提交改动到仓库
+git status				查看文件状态 有哪些文件改动了 哪些文件没commit
+
+git log   git log --pretty=oneline
+
+git reset --hard HEAD^  	返回上一个版本
+git reset --hard 1094adb	按commit ID跳转版本
+git reset --hard commit_id
+
+git reflog 				查看 记录的每次命令
+
+
+			
