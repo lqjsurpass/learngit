@@ -24,3 +24,5 @@ git diff HEAD -- readme.txt	命令可以查看工作区和版本库里面最新�
 git checkout -- readme.txt 	命令可以丢弃工作区的修改
 
 git reset HEAD <file>
+
+git rm test.txt				删除test.txt 文件
