@@ -51,4 +51,24 @@ git checkout -b dev  == git branch dev      git checkout dev  创建并切换到
 
 git branch					查看当前分支
 
+git checkout master 		切换分支到master
+
+git merge dev				合并分支 dev	git merge命令用于合并指定分支到当前分支
+
+git branch -d dev			删除分支 dev
+
+
+Git鼓励大量使用分支：
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
 
