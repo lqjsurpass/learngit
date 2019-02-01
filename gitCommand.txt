@@ -21,4 +21,4 @@ git reflog 					查看 记录的每次命令
 
 git diff HEAD -- readme.txt	命令可以查看工作区和版本库里面最新版本的区别：
 
-			
+git checkout -- readme.txt 	命令可以丢弃工作区的修改
